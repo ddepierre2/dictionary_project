@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
       <header className="App-header">
        <h1>Dictionary</h1>
-       <h2>Type a word to look up in the dictionary</h2>
+       <h3>Type a word to look up in the dictionary</h3>
       </header>
       <main>
         <Dictionary />

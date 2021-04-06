@@ -25,13 +25,20 @@ function handleResponse(response){
 
   return (
   <div className="Dictionary">
-   
+   <section>
   <form onSubmit={search}>
-    <input type="search" placeholder="Type a word" onChange={keywordSearch} />
+    <div className="form-row">
+    <div className="col-6">
+    <input type="text" className="form-control" placeholder="Type a word" onChange={keywordSearch} />
+    </div>
+    <div className="col-3">
+    <button type="button" className="btn">Search</button>
+    </div>
+    </div>
   </form>
-
+  </section>
   <Results results={results} />
 
   </div>
 )
-}
+}         

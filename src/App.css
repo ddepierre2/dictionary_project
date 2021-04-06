@@ -1,0 +1,22 @@
+body {
+  background: #658ea9;
+  font-style: italic;
+  color: #e7f2f8;
+}
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.App-header {
+  text-align: center;
+}
+.App-header h1 {
+  padding: 20px;
+}
+
+.signature {
+  color: #74bdcb;
+}
+.signature a {
+  color: #e7f2f8;
+}
