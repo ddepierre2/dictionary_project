@@ -3,12 +3,13 @@
   color: #e7f2f8;
   padding: 30px;
   border-radius: 16px;
-  box-shadow: 5px;
+  box-shadow: 0 5px 5px rgb(0 0 0 / 20%);
   margin: 20px;
 }
 .Dictionary .btn {
   background: #658ea9;
   color: #e7f2f8;
+  border: 1px solid #e7f2f8;
 }
 .Dictionary .btn:hover {
   background: #353643;

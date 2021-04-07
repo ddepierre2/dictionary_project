@@ -15,8 +15,14 @@ body {
 }
 
 .signature {
-  color: #74bdcb;
+  color: #e7f2f8;
+  text-align: center;
+  padding: 20px;
 }
+
 .signature a {
+  color: #e7f2f8;
+}
+.signature a:hover {
   color: #e7f2f8;
 }

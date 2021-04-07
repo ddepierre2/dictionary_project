@@ -1,0 +1,9 @@
+.Meaning h3 {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+Meaning .example {
+  font-style: italic;
+}
