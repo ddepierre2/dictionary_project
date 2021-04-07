@@ -10,7 +10,7 @@ export default function App() {
        <h3>Type a word to look up in the dictionary</h3>
       </header>
       <main>
-        <Dictionary defaultKeyword="climbing" />
+        <Dictionary />
       </main>
 
       <footer className="signature"><small><a href="https://github.com/ddepierre2/dictionary_project" 

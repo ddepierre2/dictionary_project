@@ -1,3 +1,6 @@
 .Phonetic .audio-player {
   color: #e7f2f8;
 }
+.Phonetic p {
+  margin: 20px 0 0;
+}

@@ -11,7 +11,7 @@ export default function Phonetic (props){
   onPlay
   controls
 />
-    <p>{props.phonetic.text}</p>
+    <p className="pronounce">{props.phonetic.text}</p>
 
   </div>
   )

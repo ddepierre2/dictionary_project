@@ -13,8 +13,9 @@ return (
           <div className="definition">
             {definition.definition}
           </div>
+          <h3 className="example-title">Example:</h3>
           <div className="example">
-            {definition.example}
+          {definition.example}
           </div>
           <Synonyms synonyms={definition.synonyms} />
         </div>

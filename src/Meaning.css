@@ -3,7 +3,17 @@
   font-weight: bold;
   text-transform: capitalize;
 }
-
-Meaning .example {
-  font-style: italic;
+.Meaning div.definition {
+  font-style: normal;
+}
+.Meaning .example-title {
+  font-size: 18px;
+  margin: 10px 0 10px;
+  padding: 0;
+}
+.Meaning div.example {
+  padding: 0 0 20px;
+}
+.Meaning .example::first-letter {
+  text-transform: capitalize;
 }
